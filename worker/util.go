@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/nabeken/aws-go-sqs/queue"
-	"github.com/stripe/aws-go/gen/sqs"
+	"github.com/aws/aws-sdk-go/service/sqs"
 )
 
 func Getenv(name, defaultVal string) string {

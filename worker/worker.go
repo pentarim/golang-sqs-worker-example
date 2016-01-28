@@ -6,7 +6,7 @@ import (
 
 	"github.com/nabeken/aws-go-sqs/queue"
 	"github.com/nabeken/aws-go-sqs/queue/option"
-	"github.com/stripe/aws-go/gen/sqs"
+	"github.com/aws/aws-sdk-go/service/sqs"
 )
 
 var defaultStackName = "golang-sqsl-worker-example"
